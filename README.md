@@ -12,6 +12,7 @@ This installs:
 - konsole
 - ttf-hack-nerd
 - cmake
+
 However it does not automatically apply my configurations.
 
 These dotfiles are licensed under a [custom source available license](./LICENSE.txt)
