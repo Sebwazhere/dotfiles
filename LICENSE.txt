@@ -1,0 +1,22 @@
+Sebwazhere Software License (Version 1.0, June 2025)
+https://sebwazhere.github.io/license.html
+
+NOTE: This is NOT an open source license, and is more accurately described as a source available license.
+IMPORTANT: This license was not written or reviewed by any legal professionals.
+
+Copyright (C) 2025 Sebastian S. (Sebwazhere)
+
+1. Definitions
+    i. "the Software" refers to any compiled, binary or executable forms of the software.
+    ii. "the Source Code" (or "the Source") refers to the Software's source code and related documents/files made publicly available by the software provider and/or copyright holders.
+
+2. Permissions and Conditions
+    Permission is granted to use, copy, modify, or redistribute the Software and the Source Code under the following conditions:
+        i. The Software or Source Code may not be sold, licensed or otherwise redistributed in exchange for money, goods, services, or any other forms of compensation or commercial benefit.
+        ii. Redistributors, modifiers or contributors must not falsely claim that the software is/was originally created entirely by them.
+
+    Attribution to the original author is not required, but is appreciated.
+
+3. Warranty Disclaimer
+    THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY FORM OF EXPRESS OR IMPLIED WARRANTY, INCLUDING, BUT NOT LIMITED TO, THE WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
+    UNDER NO CIRCUMSTANCES SHALL THE AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THE SOFTWARE OR SOURCE CODE.
