@@ -8,6 +8,6 @@ return {
     lazy = false,
     config = function()
         require("neo-tree").setup({})
-        vim.keymap.set("n", "<leader>t", function() vim.cmd("Neotree toggle filesystem right") end, {})
+        vim.keymap.set("n", "<leader>t", function() vim.cmd("Neotree toggle filesystem left") end, {})
     end
 }

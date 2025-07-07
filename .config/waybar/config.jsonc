@@ -36,7 +36,7 @@
     },
     
     "cpu": {
-        "interval": 5,
+        "interval": 1,
         "format": "\uf4bc {usage}%"
     },
 
