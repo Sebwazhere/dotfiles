@@ -10,11 +10,10 @@ mkdir .config
 
 cp -R ~/.config/hypr .config/hypr
 cp -R ~/.config/waybar .config/waybar
-
+cp -R ~/.config/fuzzel .config/fuzzel
 cp -R ~/.config/dunst .config/dunst
 
 cp -R ~/.config/foot .config/foot
-
 cp -R ~/.config/nvim .config/nvim
 
 echo "Updated dotfiles."

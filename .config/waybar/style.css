@@ -1,6 +1,54 @@
+/* General Config */
+
 * {
-    color: #ffffff;
+    color: #cad3f5;
     font-family: HackNerdFont, monospace;
     font-size: 16px;
+}
+
+window#waybar {
     background: transparent;
+}
+
+#custom-shutdown,
+#custom-reboot,
+#wireplumber,
+#clock,
+#network,
+#cpu,
+#memory {
+    min-width: 1rem;
+    padding: 0.5rem;
+    background: rgba(36, 39, 58, 0.8);
+    border-radius: 5px;
+}
+
+/* Group modules into sections */
+
+#custom-shutdown,
+#network {
+    padding-left: 0.8rem;
+    border-radius: 5px 0 0 5px;
+}
+
+#custom-reboot,
+#cpu {
+    border-radius: 0;
+}
+
+#wireplumber,
+#memory {
+    padding-right: 0.8rem;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Individual Module Config */
+
+#clock {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+#wireplumber {
+    padding-left: 1.1rem;
 }

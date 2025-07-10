@@ -13,10 +13,13 @@ Includes configs for:
 - Neovim (Code Editor)
 - Bash (Shell)
 - Dunst (Notification Daemon)
+- Fuzzel (Launcher)
+- Hyprpaper (Hyprland Wallpaper)
 
 Dependencies:
 - ttf-hack-nerd (for a lot of stuff)
 - Hyprland
+- - Hyprpaper
 - - Bibata Modern Classic
 - - grim
 - - slurp

@@ -2,8 +2,7 @@
     "layer": "bottom",
     "position": "top",
     "height": 20,
-    "spacing": 10,
-    "margin": "3, 5",
+    "margin": "5",
 
     "modules-left": ["custom/shutdown", "custom/reboot", "wireplumber"],
     "modules-center": ["clock"],
@@ -15,24 +14,24 @@
     },
 
     "custom/reboot": {
-        "format": "\uf2f9 ",
+        "format": "\uf2f9",
         "on-click": "reboot"
     },
 
     "wireplumber": {
         "format": "{icon} {volume}%",
         "format-muted": "\ueee8",
-        "format-icons": ["\uf026", "\uf027", "\uf028"]
+        "format-icons": ["\uf027", "\uf028"]
     },
 
     "clock": {
         "interval": 1,
-        "format": "{:%H:%M:%S - %a %d %b}"
+        "format": "{:%H:%M:%S - %a %d}"
     },
 
     "network": {
-        "format-wifi": "\udb82\udd28 ",
-        "format-disconnected": "\udb82\udd2b "
+        "format-wifi": "\uf1eb ",
+        "format-disconnected": "\uf071"
     },
     
     "cpu": {
@@ -42,6 +41,6 @@
 
     "memory": {
         "interval": 5,
-        "format": "\uefc5 {used:0.1f}GiB/{total:0.1f}GiB"
+        "format": "\uefc5 {used:0.1f}G/{total:0.1f}G"
     }
 }
