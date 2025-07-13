@@ -5,6 +5,9 @@ set -e
 rm -f .bashrc
 cp ~/.bashrc .bashrc
 
+rm -f .tmux.conf
+cp ~/.tmux.conf .tmux.conf
+
 rm -rf .config
 mkdir .config
 

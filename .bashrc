@@ -12,3 +12,7 @@ _GOLD="\[\033[93m\]"
 _BLUE="\[\033[34m\]"
 _RESET="\[\033[0m\]"
 PS1="${_GOLD}\u ${_BLUE}\w${_RESET}\$ "
+
+if [ ! "$TMUX" ]; then
+    tmux new -Adefault
+fi
