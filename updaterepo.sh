@@ -18,6 +18,7 @@ cp -R ~/.config/dunst .config/dunst
 
 cp -R ~/.config/foot .config/foot
 cp -R ~/.config/nvim .config/nvim
+rm .config/nvim/lazy-lock.json
 
 echo "Updated dotfiles."
 read -p "Auto commit? [y/N] " autocommit
