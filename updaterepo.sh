@@ -21,11 +21,3 @@ cp -R ~/.config/nvim .config/nvim
 rm .config/nvim/lazy-lock.json
 
 echo "Updated dotfiles."
-read -p "Auto commit? [y/N] " autocommit
-
-if [ $autocommit = "y" ] || [ $autocommit = "Y" ]; then
-    git add -A
-    git commit -m "AutoCommit $(date +%Y%m%d%H%M%S)"
-    git push -u origin master
-    echo "Completed Auto Commit"
-fi
